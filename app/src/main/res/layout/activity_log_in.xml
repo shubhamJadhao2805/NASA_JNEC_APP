@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nasatwo"
+    tools:context=".LogInActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="always"
+        android:scrollbarThumbVertical="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top|center_vertical"
+            android:foregroundGravity="center_vertical|center"
+            android:gravity="center|center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="297dp"
+                android:layout_height="165dp"
+                app:srcCompat="@drawable/logo" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="39dp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="202dp"
+                android:layout_height="82dp"
+                android:paddingBottom="30dp"
+                app:srcCompat="@drawable/signin" />
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="300dp"
+                android:layout_height="77dp"
+                android:background="@drawable/textfield"
+                android:ems="10"
+                android:hint="Enter ID"
+                android:inputType="textPersonName"
+                android:paddingBottom="10dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="300dp"
+                android:layout_height="77dp"
+                android:background="@drawable/textfield"
+                android:ems="10"
+                android:hint="Enter your Password"
+                android:inputType="textPersonName|textPassword"
+                android:paddingBottom="10dp"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/proceed"
+                android:layout_width="300dp"
+                android:layout_height="76dp"
+                android:background="@drawable/buttonpro"
+                android:onClick="logIn" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="263dp"
+                android:layout_height="216dp"
+                android:layout_gravity="left"
+                android:paddingTop="110dp"
+                app:srcCompat="@drawable/date" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

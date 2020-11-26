@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workshop">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:scrollbarSize="2dp"
+        android:scrollbarThumbVertical="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:paddingTop="10dp"
+                android:text="WORKSHOP"
+                android:textAlignment="center"
+                android:textColor="#FCFFFFFF"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo1" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo2" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo3" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo4" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo5" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo6" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo7" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo8" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo9" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo10" />
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo11" />
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/wo10" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
